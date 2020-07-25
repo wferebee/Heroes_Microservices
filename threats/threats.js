@@ -1,3 +1,6 @@
+// to run this in postman, first run both threats and heroes in local hosts on differnt ports, 8082 and 8081, then set the body -> raw to {"heroId": 2, "threatId": 2}
+// then set the headers to key = content-Type and value = application/json
+
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
